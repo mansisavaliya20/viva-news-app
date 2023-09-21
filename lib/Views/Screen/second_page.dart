@@ -21,7 +21,7 @@ class _SecondPageState extends State<SecondPage> {
     Map data = ModalRoute.of(context)!.settings.arguments as Map;
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.blue,
         actions: [
           Icon(
             Icons.favorite_border,
@@ -57,7 +57,7 @@ class _SecondPageState extends State<SecondPage> {
                     Text(
                       "${data['title']}",
                       style: TextStyle(
-                        color: Colors.red,
+                        color: Colors.blue,
                       ),
                     ),
                     SizedBox(
